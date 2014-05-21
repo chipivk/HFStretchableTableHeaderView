@@ -17,7 +17,6 @@
 		B112B893191EB92D00F95975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B112B892191EB92D00F95975 /* Images.xcassets */; };
 		B112B8B5191EBDBF00F95975 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B112B8B4191EBDBF00F95975 /* DemoTableViewController.m */; };
 		B112B8BA191EBFA000F95975 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B112B8B9191EBFA000F95975 /* MapKit.framework */; };
-		B1795A96191EC62500A23BCD /* HFStretchableTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1795A95191EC62500A23BCD /* HFStretchableTableHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +36,6 @@
 		B112B8B3191EBDBF00F95975 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
 		B112B8B4191EBDBF00F95975 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 		B112B8B9191EBFA000F95975 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		B1795A94191EC62500A23BCD /* HFStretchableTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFStretchableTableHeaderView.h; sourceTree = "<group>"; };
-		B1795A95191EC62500A23BCD /* HFStretchableTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFStretchableTableHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +85,6 @@
 		B112B880191EB92D00F95975 /* HFStretchableTableHeaderViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B112B8AF191EBC0300F95975 /* HFStretchableTableHeaderView */,
 				B112B889191EB92D00F95975 /* AppDelegate.h */,
 				B112B88A191EB92D00F95975 /* AppDelegate.m */,
 				B112B88C191EB92D00F95975 /* Main.storyboard */,
@@ -109,16 +105,6 @@
 				B112B888191EB92D00F95975 /* HFStretchableTableHeaderViewDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		B112B8AF191EBC0300F95975 /* HFStretchableTableHeaderView */ = {
-			isa = PBXGroup;
-			children = (
-				B1795A94191EC62500A23BCD /* HFStretchableTableHeaderView.h */,
-				B1795A95191EC62500A23BCD /* HFStretchableTableHeaderView.m */,
-			);
-			name = HFStretchableTableHeaderView;
-			path = ../../HFStretchableTableHeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1795A96191EC62500A23BCD /* HFStretchableTableHeaderView.m in Sources */,
 				B112B88B191EB92D00F95975 /* AppDelegate.m in Sources */,
 				B112B887191EB92D00F95975 /* main.m in Sources */,
 				B112B8B5191EBDBF00F95975 /* DemoTableViewController.m in Sources */,
@@ -293,6 +278,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = HFStretchableTableHeaderViewDemo;
 				WRAPPER_EXTENSION = app;
 			};
@@ -306,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Prefix.pch";
 				INFOPLIST_FILE = "HFStretchableTableHeaderViewDemo/HFStretchableTableHeaderViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = HFStretchableTableHeaderViewDemo;
 				WRAPPER_EXTENSION = app;
 			};

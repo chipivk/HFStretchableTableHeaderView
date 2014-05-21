@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '6.1'
+
+target "HFStretchableTableHeaderView" do
+  pod "HFStretchableTableHeaderView", :path => "../HFStretchableTableHeaderView.podspec"
+end
+
+# Uncomment the following lines to add testing dependencies
+# target "DemoTests" do
+#   pod 'Expecta'
+# end
