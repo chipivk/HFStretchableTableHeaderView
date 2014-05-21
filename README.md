@@ -1,39 +1,25 @@
-HFStretchableTableHeaderView
-==========================
+# HFStretchableTableHeaderView
 
-Stretchable TableHeaderView for iOS.
+[![Version](http://cocoapod-badges.herokuapp.com/v/HFStretchableTableHeaderView/badge.png)](http://cocoadocs.org/docsets/HFStretchableTableHeaderView)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/HFStretchableTableHeaderView/badge.png)](http://cocoadocs.org/docsets/HFStretchableTableHeaderView)
 
+## Usage
 
+To run the example project; clone the repo, and run `pod install` from the Example directory first.
 
-![Screenshot](https://raw.github.com/hfrahmann/HFStretchableTableHeaderView/master/HFStretchableTableHeaderView.gif)
+## Requirements
 
+## Installation
 
-How to use it
--------------
+HFStretchableTableHeaderView is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
 
+    pod "HFStretchableTableHeaderView"
 
-```
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    
-    _stretchableTableHeaderView = [HFStretchableTableHeaderView new];
-    [_stretchableTableHeaderView stretchHeaderForTableView:self.tableView withView:_stretchView];
-}
+## Author
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    [_stretchableTableHeaderView scrollViewDidScroll:scrollView];
-}
+hfrahmann
 
-- (void)viewDidLayoutSubviews
-{
-    [_stretchableTableHeaderView resizeView];
-}
-```
+## License
 
-
-License
--------
-
-This project is licensed under the MIT-License.
+HFStretchableTableHeaderView is available under the MIT license. See the LICENSE file for more info.

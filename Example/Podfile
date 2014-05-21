@@ -1,7 +1,7 @@
 # Uncomment this line to define a global platform for your project
 platform :ios, '6.1'
 
-target "HFStretchableTableHeaderView" do
+target "HFStretchableTableHeaderViewDemo" do
   pod "HFStretchableTableHeaderView", :path => "../HFStretchableTableHeaderView.podspec"
 end
 
@@ -9,3 +9,4 @@ end
 # target "DemoTests" do
 #   pod 'Expecta'
 # end
+

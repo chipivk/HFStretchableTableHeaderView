@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "HFStretchableTableHeaderView"
-  s.version          = "0.1.1"
+  s.version          = "0.1.0"
   s.summary          = "Stretchable TableHeaderView for iOS"
   s.homepage         = "https://github.com/hfrahmann/HFStretchableTableHeaderView"
   s.license          = 'MIT'

@@ -1,0 +1,14 @@
+PODS:
+  - HFStretchableTableHeaderView (0.1.0)
+
+DEPENDENCIES:
+  - HFStretchableTableHeaderView (from `../HFStretchableTableHeaderView.podspec`)
+
+EXTERNAL SOURCES:
+  HFStretchableTableHeaderView:
+    :path: ../HFStretchableTableHeaderView.podspec
+
+SPEC CHECKSUMS:
+  HFStretchableTableHeaderView: 65b517581521cb7cf6d7f806f39d363a939f7baf
+
+COCOAPODS: 0.32.1
